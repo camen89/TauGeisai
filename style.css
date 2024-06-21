@@ -88,6 +88,7 @@
 
     /*芸祭の概要に関する情報*/
     .geisai_about{
+        padding: 5px;
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
@@ -116,6 +117,9 @@
         margin-bottom: 30px;
     }
     .time_title{
+        border-bottom: 1px solid #000;
+        display: inline-block;
+        
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
@@ -161,6 +165,9 @@
     }
     /*会場に関する情報*/
     .place_title{
+        border-bottom: 1px solid #000;
+        display: inline-block;
+        
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
