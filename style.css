@@ -71,6 +71,7 @@
 
     /*タイトルに関する情報*/
     h1{
+        color: black;
         text-align: left;
         font-size: 48px;
         font-family: "Mukta", sans-serif;
