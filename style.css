@@ -177,6 +177,53 @@
         font-style: normal;
     }
 
+    /*フッターに関する情報*/
+    .footer_container{
+        margin: 0;
+        margin-top: 10px;
+        padding: 1px;
+    }
+    .sns_icon_container{
+        position: relative;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .sns_icon{
+        vertical-align: middle;
+        width: 10%;
+    }
+    #tamabi_icon{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    #insta_icon{
+        width: 10%;
+        /* 垂直方向の中央揃え */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #twitter_icon{
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .icon_right{
+        text-align: center;
+        font-size: 12px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    .icon_right_link{
+        color: black;
+    }
+
 }
 /* タブレット */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
