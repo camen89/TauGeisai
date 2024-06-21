@@ -38,6 +38,7 @@
     }
     .header_menu_container{
         display: flex;
+        justify-content: space-between;
     }
     .header_title{
         margin: 0;
