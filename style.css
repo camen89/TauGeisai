@@ -9,6 +9,10 @@
 
 /* スマホ */
 @media screen and (max-width: 428px) {
+    html{
+        scroll-behavior: smooth;
+    }
+
     body{
         margin: 0px;
     }
@@ -67,6 +71,10 @@
         100% {
           transform: translateY(0%);
         }
+    }
+    .inpage_link{
+        text-decoration: none;
+        color: black;
     }
 
     /*タイトルに関する情報*/
@@ -182,6 +190,55 @@
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
+        font-style: normal;
+    }
+    .place_address{
+        margin-left: 10px;
+        font-size: 15px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    /*Q&Aに関する情報*/
+    .time_info_container{
+        margin-bottom: 30px;
+    }
+    .QA_title{
+        border-bottom: 1px solid #000;
+        display: inline-block;
+
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    .QA_container1{
+        margin-top: -25px;
+        margin-bottom: 20px;
+    }
+    .question1{
+        font-size: 15px;
+        margin-bottom: -60px;
+        /*margin: -10px;*/
+        /*margin-left: 10px;*/
+        padding: 10px;
+    
+        font-family: "Mukta", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    .answer1{
+        font-size: 15px;
+        margin-bottom: -20px;
+        margin-top: 45px;
+        /*margin: -10px;*/
+        /*margin-left: 10px;*/
+        padding: 10px;
+        
+
+        font-family: "Mukta", sans-serif;
+        font-weight: 200;
         font-style: normal;
     }
 
