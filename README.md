@@ -1,5 +1,5 @@
 # TauGeisai_(写真なし.ver)
-#### 直においてあるhtmlファイルではなく,デザインver〇.〇のフォルダをダウンロードしてください.
+#### ダウンロード後には,直においてあるhtmlファイルではなく,デザインver〇.〇のフォルダのindex.htmlを開いてください.
 - デザインver1.0 ---> スマホ版のみの実装
 ## [visit_site](https://camen89.github.io/TauGeisai/)
 
