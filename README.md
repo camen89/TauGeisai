@@ -1,4 +1,4 @@
-# TauGeisai_(写真なし.ver)
+# TauGeisai 芸祭website
 #### ダウンロード後には,直においてあるhtmlファイルではなく,デザインver〇.〇のフォルダのindex.htmlを開いてください.
 - デザインver1.0 ---> スマホ版のみの実装
 ## [visit_site](https://camen89.github.io/TauGeisai/)
