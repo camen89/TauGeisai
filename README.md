@@ -1,7 +1,7 @@
 # TauGeisai 芸祭website
 #### ダウンロード後には,直においてあるhtmlファイルではなく,デザインver〇.〇のフォルダのindex.htmlを開いてください.
 - デザインver1.0 ---> スマホ版のみの実装
-- デザインver1.1 ---> PC版、ipad版、スマホ版を実装（デザインは暫定）
+- デザインver1.1 ---> PC版、ipad版、スマホ版を実装（デザインは暫定）--->[サイトを見る](https://www.idd.tamabi.ac.jp/d23009/)
 ## [visit_site](https://camen89.github.io/TauGeisai/)
 
   - 2024/6/22/5:21更新
