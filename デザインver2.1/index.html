@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--写真なし-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多摩美術大学 芸術祭 2024</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+
+    <!-- OGP -->
+    <meta property="og:url" content="https://tamabi-geisai.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="多摩美術大学 芸術祭">
+    <!-- <meta property="og:description" content="ホームページ(2カラム)のコーディングを実装しました。下層ページは、お問い合わせページ、お菓子のページ、渋谷教室のページを実装しました。">
+    <meta property="og:site_name" content="ホームページのコーディング ポートフォリオ"> -->
+    <meta property="og:image"
+        content="https://github.com/camen89/TauGeisai/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3ver1.0/OGimg.png?raw=true">
+
+    <!--<link rel="stylesheet" href="https://camen89.github.io/TauGeisai/style.css">!-->
+    <link rel="stylesheet" href="style.css">
+    <!-- DINフォント -->
+    <link rel="stylesheet" href="https://use.typekit.net/gaq6yzj.css">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'lna6ram',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'lna6ram',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'lna6ram',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ローディング画面 -->
+    <div id="showloading">
+        <img id="loadingImg" src="loading.png">
+    </div>
+
+
+
+    <!-- メイン画面 -->
+    <div id="contents" class="hidden">
+        <div class="background_container">
+            <header class="header_fixed">
+                <p class="header_fixed_title">TAMA ART UNIVERSITY</p>
+            </header>
+            <header class="header">
+                <div class="header_menu_container">
+                    <a class="inpage_link" href="#time_title">
+                        <p class="header_title">日時</p>
+                    </a>
+                    <p class="header_title">・</p>
+                    <a class="inpage_link" href="#place_title">
+                        <p class="header_title">会場</p>
+                    </a>
+                    <p class="header_title">・</p>
+                    <a class="inpage_link" href="#QA_title">
+                        <p class="header_title" id="menu_QA">Q&A</p>
+                    </a>
+                </div>
+                <hr class="header_under_line">
+            </header>
+
+            <main>
+                <h1>
+                    <div class="text_center">
+                        <div class="title">
+                            <div class="title_text">
+                                <div class="h1_text_container">
+                                    <p class="h1_text" class="h1_text_tamabi">TAMABI</p>
+                                    <p class="h1_text" class="h1_text_artfes">ART FESTIVAL</p>
+                                    <p class="h1_text" class="h1_text_2024">2024</p>
+                                    <p class="h1_text" class="h1_text_inhachi">IN HACHIOJI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="h1_text_container">
+                    <p class="h1_text" class="h1_text_tamabi">TAMABI</p>
+                    <p class="h1_text" class="h1_text_artfes">ART FESTIVAL</p>
+                    <p class="h1_text" class="h1_text_2024">2024</p>
+                    <p class="h1_text" class="h1_text_inhachi">IN HACHIOJI</p>
+                </div> -->
+                </h1>
+                <div class="time_schedule_container" id="time_schedule_container">
+                    <p class="time_schedule1">11.2(sat)~11.4(mon)</p>
+                    <p class="time_schedule2">10:00~18:00</p>
+                </div>
+                <p class="geisai_about_price" id="geisai_about_price">入場料無料・予約不要</p>
+                <hr class="line_divide_main_info">
+
+                <!--芸祭の概要に関する情報-->
+                <p class="geisai_about">作品展示、パフォーマンス、模擬店(飲食店・有料ワークショップ)、フリーマーケット、などが開催されます。</p>
+                <p class="geisai_about_price" id="geisai_about_price2">入場料無料・予約不要</p>
+                <p class="geisai_about_notes">●ご来場の際は、公共交通機関でお越しください。</p>
+                <!-- <p class="geisai_about_notes">●お身体の不自由な方で来場される場合は、こちらの<a href="">フォーム</a>にナンバーと来場時間をご記入ください。</p> -->
+                <p class="geisai_about_notes">●他の参加者及び本学生徒に対し不審又は危険な行為を見かけた場合は、当日の入場をお断りする場合ございます。</p>
+                <hr>
+
+                <!--日時に関する情報-->
+                <div class="time_info_container">
+                    <p class="time_title" id="time_title">日時</p>
+                    <div class="time_schedule_container">
+                        <p class="time_schedule1">11.2(sat)~11.4(mon)</p>
+                        <p class="time_schedule2">10:00~18:00*</p>
+                    </div>
+                    <p class="time_notes">＊催し事により終了時刻は異なります。</p>
+                    <p class="time_notes">＊予定は変更することがあります。</p>
+                </div>
+                <!--会場に関する情報-->
+                <div class="place_info_container">
+                    <p class="place_title" id="place_title">会場</p>
+                    <p class="place">多摩美術大学 八王子キャンパス</p>
+                    <p class="place_address">〒192-0394 東京都八王子市鑓水2-1723</p>
+                </div>
+                <!--Q&Aに関する情報-->
+                <div class="QA_info_container">
+                    <p class="QA_title" id="QA_title">Q&A</p>
+                    <div class="QA_content_container">
+                        <div class="QA_container1">
+                            <p class="question1">Q 会場に駐車場はありますか？</p>
+                            <p class="answer1">A 駐車場はございません。公共交通機関でお越しください。</p>
+                        </div>
+                        <div class="QA_container1">
+                            <p class="question1">Q 予約は必要ですか？</p>
+                            <p class="answer1">A 予約は不要です。当日は自由に出入り可能です。</p>
+                        </div>
+                        <div class="QA_container1">
+                            <p class="question1">Q 入場料はかかりますか？</p>
+                            <p class="answer1">A 当日は無料で入場いただけます。</p>
+                        </div>
+                    </div>
+                    <!-- <div class="QA_container1">
+                    <p class="question1">Q 会場への行きかたをおしえてください。</p>
+                    <p class="answer1">A こちらの<a href="https://www.tamabi.ac.jp/access/">サイト</a>を参照ください。</p>
+                </div> -->
+                </div>
+
+                <!--お問い合わせにかんする情報-->
+                <div class="inquiry_info_container">
+                    <p class="inquiry_title" id="inquiry_title">お問い合わせ</p>
+                    <div class="inquiry_container1">
+                        <p class="inquiry1">TEL : 042-675-6789</p>
+                    </div>
+                    <div class="inquiry_container1">
+                        <p class="inquiry1">MAIL : tauartfes2024@gmail.com</p>
+                    </div>
+                </div>
+
+            </main>
+
+
+            <footer class="footer_container">
+                <!-- <hr> -->
+                <div class="sns_icon_container">
+                    <!-- <a href="https://www.tamabi.ac.jp/"><img class="sns_icon" id="tamabi_icon"
+                        src="https://raw.githubusercontent.com/camen89/TauGeisai/30b5229faeff279d35342bcec50d9dea9c93a440/logo-mark.svg"
+                        alt=""></a> -->
+                    <a href="https://www.tamabi.ac.jp/"><img class="sns_icon" id="tamabi_icon" src="大学サイトアイコン.svg"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/tau_artfes_/"><img class="sns_icon" id="insta_icon"
+                            src="https://raw.githubusercontent.com/camen89/TauGeisai/30b5229faeff279d35342bcec50d9dea9c93a440/instagram_6422200.svg"
+                            alt=""></a>
+                    <a href="https://twitter.com/tau_artfes"><img class="sns_icon" id="twitter_icon"
+                            src="https://raw.githubusercontent.com/camen89/TauGeisai/30b5229faeff279d35342bcec50d9dea9c93a440/twitter-alt-square_12107611.svg"
+                            alt=""></a>
+                </div>
+                <p class="icon_right"><a class="icon_right_link"
+                        href="https://jp.freepik.com/search">本アイコンの著作権はUIconsにあります</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!--<script src="https://camen89.github.io/TauGeisai/script.js"></script>!-->
+    <script src="script.js"></script>
+</body>
+
+</html>
